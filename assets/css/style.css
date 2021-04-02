@@ -7,10 +7,11 @@ html {
     margin: 0%;
     padding: 0%;
 }
+
 header {
     background: #333;
     color: white;
-    height: 80px;
+    height: 100px;
     width: 100%;
     left: 0;
     top: 0;
@@ -47,15 +48,35 @@ main {
 h1 {
     padding-top: 20px;
     font-size: 20px;
-    text-align: left;
     font-weight: bold;
     text-align: center;
 }
 
 h2 {
     font-size: 18px;
-    text-align: left;
     font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    text-align: center;
+}
+
+table td {
+    border: 1px, solid, black;
+}
+
+table th {
+    border: 1px, solid, black;
+}
+
+table tr {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 footer {
@@ -65,7 +86,6 @@ footer {
     left: 0px;
     bottom: 0px;
     width: 100%;
-    height: 100%;
     text-align: center;
 }
 
@@ -88,5 +108,5 @@ footer {
 
 #footer-img-content ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 50px;
 }

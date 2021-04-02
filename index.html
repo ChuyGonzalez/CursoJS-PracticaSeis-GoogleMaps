@@ -5,13 +5,12 @@
     <title>Practica 7</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
     <!-- Custom CSS -->
     <link href="./assets/css/style.css" rel="stylesheet">
-
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -21,21 +20,29 @@
             <img src="./images/logo-css.png" alt="logotipo" width="50" height="50">
             <img src="./images/logo-jspng.png" alt="logotipo" width="50" height="50">
         </a>
-        <h1>DIPLOMADO UNIVO - Maps JavaScript API</h1>
+        <h1>DIPLOMADO UNIVO</h1>
+        <h2>Practica Siete - Google Maps</h2>
     </header>
     <main>
-        <div id="general-content"></div>
+        <div id="general-content">
+            <div id="controles">
+                <h1>Marcadores de Google Maps</h1>
+                <input type="text" id="txtNombre" placeholder="Nombre" />
+                <input type="text" id="txtLat" placeholder="Latitud" />
+                <input type="text" id="txtLng" placeholder="Longitud" />
+            </div>
+            <br />
+            <div>
+                <button id="btnAgregar" type="button" onclick="agregarMarcadores()">Agregar Marcador</button>
+                <button id="btnEliminar" type="button" onclick="eliminarMarcadores()">Eliminar Marcador</button>
+            </div>
+            <br />
+            <!-- Div para mostrar resultados de marcadores agregados. -->
+            <div id="divTablaMarcadores">
+                <table></table>
+            </div>
+        </div>
     </main>
-    <div id="controles">
-        <h1>Marcadores de Google Maps</h1>
-        <input type="text" id="txtNombre" placeholder="Nombre" />
-        <input type="text" id="txtLat" placeholder="Latitud" />
-        <input type="text" id="txtLong" placeholder="Longitud" />
-
-        <button id="btnAgregar" type="button" onclick="agregarMarcadores()">Agregar Marcador</button>
-        <button id="btnEliminar" type="button" onclick="eliminarMarcadores()">Eliminar Marcador</button>
-        <!-- Agregar marcador y limpiar caja de texto. Agregar marcador y generar tabla con los datos. -->
-    </div>
     <div id="map"></div>
     <footer>
         <div id="footer-img-content">
@@ -46,10 +53,10 @@
         </div>
         <p><strong>Autor:</strong> Jesús M. González Gómez - @2021</p>
     </footer>
-    <script src="./script.js"></script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2NVosc2MJLaMw8eAFqbh-g0Wjqg3JNvc&callback=iniciarMap"
-        async defer></script>
+        async defer>
+        </script>
 </body>
 
 </html>
