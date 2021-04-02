@@ -21,6 +21,7 @@ Datos de prueba:
 
 Resultado final:
 ![Preview](/images/MarksGoogleMaps.jpg)
+<<<<<<< HEAD
 >>>>>>> b3ff55f3f0cfe73632bf0d8b6f7962597526fe4b
 =======
 # CursoJS-PracticaSeis-GoogleMaps
@@ -30,3 +31,5 @@ Resultado final:
 3. Los marcadores que se muestren en el mapa deben ser aleatorios. (Al menos 5 tipos diferentes de marcadores, ejemplo : pines de colores rojo, azul, amarillo etc. puedes descargarlos de la web).
 4. Al dar clic en el botón eliminar marcadores debes limpiar el contenido de la tabla.
 >>>>>>> parent of 26ac7bc (Revert Practica 7)
+=======
+>>>>>>> b3ff55f (Se suben datos de prueba.)
