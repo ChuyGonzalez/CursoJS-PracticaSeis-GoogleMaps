@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Practica 7</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a id="logo-header">
+            <img src="./images/logo-html.png" alt="logotipo" width="50" height="50">
+            <img src="./images/logo-css.png" alt="logotipo" width="50" height="50">
+            <img src="./images/logo-jspng.png" alt="logotipo" width="50" height="50">
+        </a>
+        <h1>DIPLOMADO UNIVO - Maps JavaScript API</h1>
+    </header>
+    <main>
+        <div id="general-content"></div>
+    </main>
+    <div id="controles">
+        <h1>Marcadores de Google Maps</h1>
+        <input type="text" id="txtNombre" placeholder="Nombre" />
+        <input type="text" id="txtLat" placeholder="Latitud" />
+        <input type="text" id="txtLong" placeholder="Longitud" />
+
+        <button id="btnAgregar" type="button" onclick="agregarMarcadores()">Agregar Marcador</button>
+        <button id="btnEliminar" type="button" onclick="eliminarMarcadores()">Eliminar Marcador</button>
+        <!-- Agregar marcador y limpiar caja de texto. Agregar marcador y generar tabla con los datos. -->
+    </div>
+    <div id="map"></div>
+    <footer>
+        <div id="footer-img-content">
+            <a href="https://twitter.com/ChuyGonzalezDev"><img alt="Logotipo Twitter" src="./images/logo-twitter.png"
+                    width="40" height="40"></a>
+            <a href="https://www.instagram.com/chuygonzalezdev"><img alt="Logotipo Instagram"
+                    src="./images/logo-instagram.png" width="40" height="40"></a>
+        </div>
+        <p><strong>Autor:</strong> Jesús M. González Gómez - @2021</p>
+    </footer>
+    <script src="./script.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2NVosc2MJLaMw8eAFqbh-g0Wjqg3JNvc&callback=iniciarMap"
+        async defer></script>
+</body>
+
+</html>
