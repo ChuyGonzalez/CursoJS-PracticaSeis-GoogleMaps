@@ -1,9 +1,10 @@
 # Curso de Introducción a HTML, CSS y JavaScript
-## Practica Siete - **GoogleMaps**
+## Practica Siete - **GoogleMaps** :robot:
 
-### 1. Cada vez que se agregue un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre coordenada).
-### 2. Cada vez que se agregue un nuevo marcador debes registrar los datos (longitud, latitud, nombre coordenada) en una tabla.
-### 3. Los marcadores que se muestren en el mapa deben ser aleatorios. (Al menos 5 tipos diferentes de marcadores, ejemplo : pines de colores rojo, azul, amarillo etc. puedes descargarlos de la web).
-### 4. Al dar clic en el botón eliminar marcadores debes limpiar el contenido de la tabla.
+### - Cada vez que se agrega un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre de coordenado).
+### - Cada vez que se agrega un nuevo marcador se registran los datos (longitud, latitud, nombre de coordenada) en una tabla.
+### - Los marcadores que se muestran en el mapa son aleatorios. (Al menos 5 tipos diferentes de marcadores, ejemplo: pines de colores rojo, azul, verde, negro y anaranjado, etc.).
+### - Al dar clic en el botón eliminar marcadores, se eliminan los marcadores agregados y también se limpia el contenido de la tabla.
+### - Al dar clic en marcador muestra la información del marcador, latitud y longitud.
 
 Resultado final: ![Preview](/images/MarksGoogleMaps.jpg)
