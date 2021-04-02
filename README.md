@@ -7,4 +7,8 @@
 ### - Al dar clic en el botón eliminar marcadores, se eliminan los marcadores agregados y también se limpia el contenido de la tabla.
 ### - Al dar clic en marcador muestra la información del marcador, latitud y longitud.
 
-Resultado final: ![Preview](/images/MarksGoogleMaps.jpg)
+Datos de prueba:
+![image](https://user-images.githubusercontent.com/8675738/113442469-57682380-93ad-11eb-8911-82006f8dc35e.png)
+
+Resultado final:
+![Preview](/images/MarksGoogleMaps.jpg)
