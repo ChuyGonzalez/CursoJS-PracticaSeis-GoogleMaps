@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CursoJS-PracticaSeis-GoogleMaps
 
 1. Cada vez que se agregue un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre coordenada).
@@ -21,3 +22,11 @@ Datos de prueba:
 Resultado final:
 ![Preview](/images/MarksGoogleMaps.jpg)
 >>>>>>> b3ff55f3f0cfe73632bf0d8b6f7962597526fe4b
+=======
+# CursoJS-PracticaSeis-GoogleMaps
+
+1. Cada vez que se agregue un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre coordenada).
+2. Cada vez que se agregue un nuevo marcador debes registrar los datos (longitud, latitud, nombre coordenada) en una tabla.
+3. Los marcadores que se muestren en el mapa deben ser aleatorios. (Al menos 5 tipos diferentes de marcadores, ejemplo : pines de colores rojo, azul, amarillo etc. puedes descargarlos de la web).
+4. Al dar clic en el botón eliminar marcadores debes limpiar el contenido de la tabla.
+>>>>>>> parent of 26ac7bc (Revert Practica 7)
