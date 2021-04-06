@@ -83,7 +83,7 @@ function agregarMarcadores() {
   infowindow.setContent(
     "<strong>" +
       marker.title +
-      "</strong><br /><strong> Coordenadas:</strong>" +
+      "</strong><br /><strong> Coordenadas: </strong>" +
       marker.position
   );
 
