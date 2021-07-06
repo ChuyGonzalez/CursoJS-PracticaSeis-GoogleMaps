@@ -9,7 +9,9 @@
 - Al dar clic en marcador muestra la información del marcador, latitud y longitud.
 
 Datos de prueba:
+
 ![image](https://user-images.githubusercontent.com/8675738/113442469-57682380-93ad-11eb-8911-82006f8dc35e.png)
 
 Resultado final:
+
 ![Preview](/images/MarksGoogleMaps.jpg)
