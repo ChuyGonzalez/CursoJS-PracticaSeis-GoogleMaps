@@ -1,5 +1,5 @@
 # Introducción a JavaScript
-## Practica Siete - **GoogleMaps** :robot:
+## Practica **GoogleMaps** :robot:
 
 ### Introducción
 - Cada vez que se agrega un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre de coordenado).
