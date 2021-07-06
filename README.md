@@ -1,7 +1,8 @@
 # Introducción a JavaScript
 ## Practica con **API GoogleMaps** :robot:
 
-### Introducción
+### Instrucciones:
+
 - Cada vez que se agrega un nuevo marcador debes limpiar el contenido de las cajas de texto (longitud, latitud, nombre de coordenado).
 - Cada vez que se agrega un nuevo marcador se registran los datos (longitud, latitud, nombre de coordenada) en una tabla.
 - Los marcadores que se muestran en el mapa son aleatorios. (Al menos 5 tipos diferentes de marcadores, ejemplo: pines de colores rojo, azul, verde, negro y anaranjado, etc.).
